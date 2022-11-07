@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+        <label for="inputCurrency">Amount</label><br>
+        <input type="text" name="inputCurrency" id="inputCurrency" value=""><br><br>
+        <label>From Currency</label>
+        <select name="" id="fromCurrency"><br>
+            <option value="VND">VND</option>
+            <option value="USD">USD</option>
+        </select><br><br>
+        <label>To Currency</label>
+        <select name="" id="toCurrency"><br>
+            <option value="USD">USD</option>
+            <option value="VND">VND</option>
+        </select><br><br>
+        <input type="submit" value="Convert" onclick="submit()"><br><br>
+
+        <span>Result: </span><span id="Result"></span><span> </span><span id="currency"></span>
+</body>
+<script src="transfer.js">
+
+</script>
+</html>
